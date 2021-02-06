@@ -4,6 +4,12 @@ body{
 h1{
     font-size: 50px;
 }
+h3{
+    color: rgb(255, 255, 255);
+}
+p{
+    color:#ffffff;
+}
 .name-highlight{
     color: chocolate;
 }
@@ -15,4 +21,22 @@ h1{
 }
 .half-width img{
     width:100%;
+    height:500px;
+    /* background-image: url("images/bg.PNG"); */
+}
+img ::hover{
+    color: bisque;
+}
+section{
+    height: 500px;
+    background-image: url("images/bg.PNG");
+    background-repeat: no-repeat;
+    z-index: -80px;
+}
+.link-button{
+    background-color: tan;
+    text-decoration: none;
+    padding: 10px 10px;
+    color: rgb(68, 6, 21);
+    border-radius: 5px;
 }
